@@ -23,10 +23,12 @@
 
 ### Testing
 
-*Full integration tests:*
+  - bundle install
+
+*Full integration test:*
   - kitchen test
 
-*Converge test VM*
+*Converge test VM*:
   - kitchen converge
 
 *Run serverspec tests on a converged node:*
