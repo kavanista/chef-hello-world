@@ -1,4 +1,4 @@
-# HelloWorld-cookbook
+# HelloWorld Chef Cookbook
 
 ## Usage
 
