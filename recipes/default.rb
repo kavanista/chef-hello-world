@@ -23,13 +23,6 @@ cookbook_file "/root/resolv.sh" do
   mode 0755
 end
 
-
-# Execute script to free space by resolving broken file descriptors
-#execute "Remove broken file desciptors for named" do
-#  command "bash /tmp/fd.sh"
-#  returns [0, 1]
-#end
-
 # Enable HelloWord site in apache
 web_app node['web_application']['name'] do
   template "#{node['web_application']['config']}.erb"
