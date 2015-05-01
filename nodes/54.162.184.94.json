@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[HelloWorld::default]"
+  ],
+  "automatic": {
+    "ipaddress": "54.162.184.94"
+  }
+}
